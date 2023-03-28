@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --PrimaryDark: #12232e;
+  --PrimaryLight: #007cc7;
+  --Secondary: #4da8da;
+  --NeutralDark: #203647;
+  --NeutralLight: #eefbfb;
+  --BaseWhite: #ffffff;
+  --BaseBlack: #1c1b1a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--BaseWhite);
+  color: var(--BaseBlack);
 }

@@ -1,0 +1,31 @@
+.navbar_links{
+    font-weight: 700;
+    font-size: small;
+    cursor: pointer;
+}
+
+.navbar_links:hover{
+    color: var(--PrimaryLight);
+    scale: 1.04;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+}
+/* Navbar Drawer */
+
+.navbar_drawer-link{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    border-bottom: 0.8px solid var(--PrimaryDark);
+    font-weight: 600;
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+}
+
+.navbar_drawer-link:hover{
+    color: var(--PrimaryLight);
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+    
+}
