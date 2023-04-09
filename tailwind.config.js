@@ -12,7 +12,8 @@ module.exports = {
         "NeutralDark" : "#203647",
         "NeutralLight" : "#eefbfb",
         "BaseWhite" : "#fffff",
-        "BaseBlack" : "#1c1b1a"
+        "BaseBlack" : "#1c1b1a",
+        "Grey" : "#6f6f6f"
       }
     },
   },

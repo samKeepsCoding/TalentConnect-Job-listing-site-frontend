@@ -19,7 +19,7 @@ const Navbar = () => {
     const [drawer, setDrawer] = useState(false);
     
   return (
-    <div className='w-full flex justify-center items-center border py-5 px-6 md:px-8'>
+    <div className='w-full flex justify-center items-center py-5 px-6 md:px-8'>
         <nav className='flex flex-row w-full max-w-7xl justify-start items-center'>
             <h1 className='font-bold text-PrimaryLight text-xl md:text-3xl'>TalentConnect</h1>
             <ul className='hidden lg:flex flex-row space-x-5 ml-[4rem]'>
