@@ -7,7 +7,7 @@ const JobGrid = ({jobs}) => {
   return (
     <>
         {jobs ? (
-            <div className='flex w-full justify-center items-center p-4'>
+            <div className='flex w-full justify-center items-start p-4 min-h-screen'>
                 <div className='flex max-w-4xl w-full flex-col justify-center items-start space-y-3'>
                     {/* {jobs.map((job) => (
                         <JobCard job={job} key={job.id}/>

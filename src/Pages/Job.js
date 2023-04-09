@@ -8,7 +8,8 @@ import { CiLocationOn } from 'react-icons/ci';
 import { FaRegMoneyBillAlt } from 'react-icons/fa';
 import { CiClock1 } from 'react-icons/ci';
 import { FaBriefcase } from 'react-icons/fa';
-import { BsFacebook, BsTwitter, BsPinterest, BsLinkedin  } from 'react-icons/bs'
+import { BsFacebook, BsTwitter, BsPinterest, BsLinkedin  } from 'react-icons/bs';
+import { BiArrowBack } from 'react-icons/bi';
 
 const Job = () => {
 
@@ -131,6 +132,12 @@ const Job = () => {
                   <BsLinkedin size={20} className='cursor-pointer hover:scale-125 ease-linear duration-100'/>
                 </ul>
             </div>
+
+            <a href='/' className='text-sm hover:scale-110 cursor-pointer hover:text-PrimaryLight duration-100 ease-linear flex items-center'> 
+              <BiArrowBack size={15} className='mr-2'/>
+              Keep Job Searching
+              
+            </a>
 
           </div>
         

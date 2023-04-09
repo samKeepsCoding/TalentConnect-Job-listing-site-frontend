@@ -9,6 +9,7 @@ import Job from './Pages/Job';
 
 // Component Imports
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' element={<Jobs/>}/>
           <Route path="job/:id" element={<Job />}/>
         </Routes>
+      <Footer/>
     </BrowserRouter>
        
 
